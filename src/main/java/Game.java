@@ -1,5 +1,5 @@
-public class Set {
-    private Set() {}
+public class Game {
+    private Game() {}
 
     public enum Colour {PURPLE, GREEN, RED};
     public enum Number {ONE, TWO, THREE}

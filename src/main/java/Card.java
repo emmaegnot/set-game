@@ -1,11 +1,11 @@
 public final class Card {
     //first attributes
-    private final Set.Colour colour;
-    private final Set.Number number;
-    private final Set.Shape shape;
-    private final Set.Fill fill;
+    private final Game.Colour colour;
+    private final Game.Number number;
+    private final Game.Shape shape;
+    private final Game.Fill fill;
 
-    public Card (Set.Colour colour, Set.Number number, Set.Shape shape, Set.Fill fill){
+    public Card (Game.Colour colour, Game.Number number, Game.Shape shape, Game.Fill fill){
         this.colour = colour;
         this.number = number;
         this.shape = shape;
